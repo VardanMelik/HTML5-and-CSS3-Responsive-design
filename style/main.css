@@ -31,18 +31,23 @@
     }
 }
 
+
+/* Responsive Design 640px */
+
 @media screen and (max-width: 640px) {
-    #container {
-        width: 100%;
-        margin: 0px auto;
-    }
     #left-column {
-        width: 70%;
+        width: 100%;
     }
     #right-column {
-        width: 30%
+        width: 100%
     }
     img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #container {
+        width: 320px;
     }
 }
